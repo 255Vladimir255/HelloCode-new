@@ -9,5 +9,18 @@ int[] randomArr = new int[lenghtArr];
 for (int i = 0; i < randomArr.Length; i++)
 {
     randomArr[i] = new Random().Next(0, 2);  // выставляется набор случайных чисел в диапазоне от 0 до 1
-    Console.Write(randomArr[i] + " ");
+    Console.Write($"{randomArr[i]}");
+    if (i < randomArr [0])
+    {
+        Console.Write("["); // не понимаю как поставить квадратную скобку перед 0 индексом массива
+    } 
+    if (i < randomArr.Length - 1)
+    {
+        Console.Write(",");
+    }
+    else
+    {
+        Console.Write("]");
+    }
+   
 }

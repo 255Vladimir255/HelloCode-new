@@ -9,14 +9,14 @@ double num1 = Convert.ToDouble(Console.ReadLine());   //Convert.ToInt32() (пр�
                                                       //Convert.ToDecimal() (преобразует к типу decimal)
 Console.WriteLine("введите второе число");
 double num2 = Convert.ToDouble(Console.ReadLine());
-if (num1 > num2) 
+if (num1 > num2)
 {
-Console.Write("первое число  больше второго ");
-Console.Write(num1);
+    Console.Write("первое число  больше второго ");
+    Console.Write(num1);
 }
-    else
-    {
-Console.Write("второе число больше первого ");
-Console.Write(num2);
+else
+{
+    Console.Write("второе число больше первого ");
+    Console.Write(num2);
 
-    }
+}
